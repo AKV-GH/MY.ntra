@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Prompt', sans-serif;
+    background-color: pink;
+
+}
+
+.middle-box{
+    
+    height: 70%;
+    width: 25%;
+    background-color: #fff;
+    
+}
+
+.head{
+    margin: 10% 0 0 5%;
+    font-size: 0.7rem;
+}
+.mid-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+.midd{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-no{
+    height: 15%;
+    width: 100%;
+    padding: 0 0 0 6%;
+    
+}
+button{
+    background-color: #FF6666;
+    height: 100%;
+    width: 100%;
+}
+.warnings{
+    margin: 5% 2%;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.cont{
+    height: 15%;
+    width: 100%;
+
+}
+
+span{
+    color: #FF6666;
+}

@@ -1,0 +1,74 @@
+@media(max-width:1110px){
+    .items{
+        width: 85%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+    }
+
+}
+
+@media(max-width:950px){
+    .ranges-sorting{
+        margin-top: 15%;
+    }
+}
+@media(max-width:830px){
+    .filters{
+        display: none;
+    }
+    .items{
+        width: 100%;
+        height: auto;
+        display: grid;
+        
+        grid-template-columns: repeat(3 , 1fr);
+    }
+    .ranges-sorting{
+        margin-top: 20%;
+        height: 10vh;
+        
+        top: 15%;
+        
+        
+    }
+    .bundles,.country,.sort-brands,.sorting{
+        width: 15%;
+        margin: 1%;
+    }
+    .sort-by{
+        display: none;
+    }
+}
+@media(max-width:550px){
+    .items{
+        width: 100%;
+        height: auto;
+        display: grid;
+        margin-top: 10%;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    .ranges-sorting{
+        margin-top: 30%;
+        height: 10vh;
+        
+        top: 15%;
+        
+        
+    }
+}
+@media(max-width:350px){
+    .items{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .blueprint{
+        /* margin: 1%; */
+        width: 100%;
+    }
+    .ranges-sorting{
+        margin-top: 40%;
+    }
+}
